@@ -22,3 +22,17 @@ plt.xlabel("Gender")
 plt.ylabel("Survival Rate")
 
 plt.show()
+
+# Survival by Passenger Class Visualization
+
+import matplotlib.pyplot as plt
+
+survival_by_class = df.groupby("Pclass")["Survived"].mean()
+
+survival_by_class.plot(kind="bar")
+
+plt.title("Survival Rate by Passenger Class")
+plt.xlabel("Passenger Class")
+plt.ylabel("Survival Rate")
+
+plt.show()
