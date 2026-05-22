@@ -57,3 +57,16 @@ plt.xlabel("Passenger Class")
 plt.ylabel("Average Fare")
 
 plt.show()
+
+import seaborn as sns
+
+plt.figure()
+
+sns.heatmap(
+    df[["Survived","Age","Fare","Pclass"]].corr(),
+    annot=True
+)
+
+plt.title("Correlation Heatmap")
+
+plt.show()
