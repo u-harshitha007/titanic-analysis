@@ -23,7 +23,7 @@ plt.ylabel("Survival Rate")
 
 plt.show()
 
-# Survival by Passenger Class Visualization
+ 
 
 import matplotlib.pyplot as plt
 
@@ -46,7 +46,7 @@ plt.ylabel("Number of Passengers")
 
 plt.show()
 
-plt.figure()
+ plt.figure()
 
 fare_by_class = df.groupby("Pclass")["Fare"].mean()
 
@@ -55,18 +55,5 @@ fare_by_class.plot(kind="bar")
 plt.title("Average Fare by Passenger Class")
 plt.xlabel("Passenger Class")
 plt.ylabel("Average Fare")
-
-plt.show()
-
-import seaborn as sns
-
-plt.figure()
-
-sns.heatmap(
-    df[["Survived","Age","Fare","Pclass"]].corr(),
-    annot=True
-)
-
-plt.title("Correlation Heatmap")
 
 plt.show()
