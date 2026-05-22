@@ -1,62 +1,49 @@
-# Titanic Analysis Project
+ # Titanic Analysis 
 
-## Objective
+This is one of my beginner data science projects where I explored the Titanic dataset using Python. The main goal of this project was to understand how real-world datasets work, clean data, find insights, and visualize patterns.
 
-The goal of this project was to analyze the Titanic passenger dataset and understand the key factors that affected passenger survival.
+While working on this project, I practiced using Pandas, NumPy, Matplotlib, and Seaborn for data analysis and visualization.
 
-## What I Did
+## What I did in this project
 
-In this project, I:
+- Loaded the Titanic dataset
+- Explored the dataset structure
+- Cleaned missing values
+- Performed basic analysis
+- Found survival patterns
+- Created visualizations for better understanding
 
-* Loaded the Titanic dataset using Python and Pandas
-* Explored the dataset structure, columns, and statistics
-* Identified missing values in important columns
-* Cleaned the missing Age values using mean replacement
-* Analyzed survival rates based on:
+## Visualizations included
 
-  * Gender
-  * Passenger class
-  * Embarkation port
-* Calculated average passenger age across classes
-* Saved the cleaned dataset for future use
+- Survival rate by gender
+- Survival rate by passenger class
+- Average fare by passenger class
+- Age distribution
+- Correlation heatmap
 
-## Tools Used
+## Tech Used
 
-* Python
-* Pandas
-* VS Code
-* GitHub
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 
-## Key Insights
+## Future Improvements
 
-Through this analysis, I found that:
+Things I want to add later:
 
-* Female passengers had a much higher survival rate
-* Passengers in higher classes had better survival chances
-* Passenger demographics played a major role in survival outcomes
-* Proper data cleaning is essential before analysis
+- Interactive dashboard
+- Machine learning prediction model
+- More visual insights
 
-## Project Files
+## Project Structure
 
-* `titanic.csv` — Original dataset
-* `cleaned_titanic.csv` — Cleaned dataset
-* `titanic_analysis.py` — Main analysis code
-* `README.md` — Project overview
-
-## Future Scope
-
-In the future, I plan to:
-
-* Add visualizations using Matplotlib and Seaborn
-* Build a dashboard for interactive analysis
-* Apply machine learning models for survival prediction
-
-## Learning Outcome
-
-This project helped me strengthen my understanding of:
-
-* Real-world data handling
-* Data cleaning
-* Exploratory Data Analysis
-* GroupBy and aggregation
-* Structuring portfolio-ready projects
+```text
+Titanic-Analysis/
+│
+├── titanic.csv
+├── cleaned_titanic.csv
+├── titanic_analysis.py
+├── README.md
+└── .gitignore
